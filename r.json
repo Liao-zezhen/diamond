@@ -1,0 +1,14 @@
+{
+	"images": [
+		{"name": "diamond0", "src": "images/0.png"},
+		{"name": "diamond1", "src": "images/1.png"},
+		{"name": "diamond2", "src": "images/2.png"},
+		{"name": "diamond3", "src": "images/3.png"},
+		{"name": "bomb0", "src": "images/bomb0.png"},
+		{"name": "bomb1", "src": "images/bomb1.png"},
+		{"name": "bomb2", "src": "images/bomb2.png"},
+		{"name": "bomb3", "src": "images/bomb3.png"},
+		{"name": "bomb4", "src": "images/bomb4.png"},
+		{"name": "bomb5", "src": "images/bomb5.png"}
+	]
+}

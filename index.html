@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<title>Document</title>
+<style type="text/css">
+html, body { height: 100%; overflow: hidden; }
+body { margin: 0; text-align: center; background: -webkit-linear-gradient(#2098ee 0%,#2099ee 10%,#239ced 22%,#3cb8ee 41%,#45c2ee 49%,#51d0ee 56%,#5edeed 70%,#5cd6db 80%, #5ed8db 100%); }
+canvas { background: url(images/bg.jpg) no-repeat; height: 100%; -webkit-background-size: cover; background-size: cover; }
+</style>
+</head>
+<body>
+	<canvas width="450" height="800" id="canvas"></canvas>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/simpleInheritance.js"></script>
+	<script src="js/StaticResourceUtil.js"></script>
+	<script src="js/FrameUtil.js"></script>
+	<script src="js/Diamond.js"></script>
+	<script src="js/Map.js"></script>
+	<script src="js/Game.js"></script>
+	<script>
+	document.addEventListener('touchstart', function (e) {
+		e.preventDefault();
+	});
+	var game = new Game({
+		canvasId: 'canvas',
+		fps: 50
+	});
+	</script>
+</body>
+</html>
